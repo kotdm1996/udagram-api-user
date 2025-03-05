@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # Runs a single command using the runners shell . triger build 1
+    # Runs a single command using the runners shell . triger build 2
       - name: Run a one-line script
         run: echo Running docker-image for udagram-api-user.        
       - uses: actions/checkout@v4
